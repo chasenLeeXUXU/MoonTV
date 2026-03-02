@@ -94,6 +94,11 @@
       "api": "https://www.hongniuzy2.com/api.php/provide/vod",
       "name": "红牛资源（体育直播）",
       "detail": "https://www.hongniuzy2.com"
+    },
+    "jingpin": {
+      "api": "https://www.jingpinx.com/api.php/provide/vod/",
+      "name": "精品资源站（含成人/18+）",
+      "detail": "https://www.jingpinx.com"
     }
   },
   "custom_category": [
