@@ -84,6 +84,49 @@
     "xiaomaomi": {
       "api": "https://zy.xmm.hk/api.php/provide/vod",
       "name": "小猫咪资源"
+    },
+    "kczy": {
+      "api": "https://caiji.kczyapi.com/api.php/provide/vod",
+      "name": "快车资源（体育/赛事）",
+      "detail": "https://caiji.kczyapi.com"
+    },
+    "hongniu": {
+      "api": "https://www.hongniuzy2.com/api.php/provide/vod",
+      "name": "红牛资源（体育直播）",
+      "detail": "https://www.hongniuzy2.com"
+    }
+  },
+  "custom_category": [
+    {
+      "name": "免费赛事直播",
+      "type": "tv",
+      "query": "体育直播"
+    },
+    {
+      "name": "NBA直播",
+      "type": "tv",
+      "query": "NBA直播"
+    },
+    {
+      "name": "足球直播",
+      "type": "tv",
+      "query": "足球直播"
+    },
+    {
+      "name": "英超直播",
+      "type": "tv",
+      "query": "英超直播"
+    },
+    {
+      "name": "欧冠直播",
+      "type": "tv",
+      "query": "欧冠直播"
+    },
+    {
+      "name": "CBA直播",
+      "type": "tv",
+      "query": "CBA直播"
     }
   }
+  ]
 }
