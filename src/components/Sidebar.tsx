@@ -146,10 +146,16 @@ const Sidebar = ({ onToggle, activePath = '/' }: SidebarProps) => {
     const runtimeConfig = (window as any).RUNTIME_CONFIG;
     if (runtimeConfig?.CUSTOM_CATEGORIES?.length > 0) {
       setMenuItems((prevItems) => [
+   const hasSportsLive = runtimeConfig.CUSTOM_CATEGORIES.some((cat: any) =>
+        /直播|赛事|NBA|足球|英超|欧冠|CBA/i.test(
+          `${cat?.name ?? ''}${cat?.query ?? ''}`
+        )
+      );
+        
         ...prevItems,
         {
           icon: Star,
-          label: '自定义',
+          label: hasSportsLive ? '赛事直播' : '自定义',
           href: '/douban?type=custom',
         },
       ]);
